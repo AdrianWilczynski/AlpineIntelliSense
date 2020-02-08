@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>To Json</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.10.1/dist/alpine.js" defer></script>
+</head>
+
+<body>
+    <div x-data="converter()">
+        <textarea x-model="text" x-ref="textarea" style="width: 100%;" rows="30"></textarea>
+        <div style="text-align: right;">
+            <button x-on:click="convertToJson()">Convert to Json</button>
+            <button x-on:click="copyToClipboard($refs.textarea)">Copy to Clipboard</button>
+        </div>
+    </div>
+    <script>
+        function converter() {
+            return {
+                text: '',
+                convertToJson() {
+                    const json = JSON.stringify({ description: this.text });
+                    this.text = json.slice(1, json.length - 1);
+                },
+                copyToClipboard(textarea) {
+                    textarea.select();
+                    document.execCommand('copy');
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

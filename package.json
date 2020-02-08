@@ -1,0 +1,37 @@
+{
+    "name": "alpine-js-intellisense",
+    "displayName": "Alpine.js IntelliSense",
+    "description": "Simple IntelliSense & Snippets for Alpine.js framework.",
+    "publisher": "adrianwilczynski",
+    "icon": "img/icon.png",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "keywords": [
+        "Alpine.js",
+        "Alpine",
+        "Snippet",
+        "Snippets",
+        "IntelliSense",
+        "Autocomplete",
+        "Autocompletion"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ],
+        "html": {
+            "customData": [
+                "./customData/html.json"
+            ]
+        }
+    }
+}
