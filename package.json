@@ -3,6 +3,10 @@
     "displayName": "Alpine.js IntelliSense",
     "description": "Simple IntelliSense & Snippets for Alpine.js framework.",
     "publisher": "adrianwilczynski",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AdrianWilczynski/AlpineIntelliSense.git"
+    },
     "icon": "img/icon.png",
     "version": "0.0.1",
     "engines": {
