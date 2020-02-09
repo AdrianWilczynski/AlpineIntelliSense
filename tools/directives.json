@@ -73,7 +73,6 @@
     },
     {
         "name": "x-cloak",
-        "description": "**Example:** `<div x-data=\"{}\" x-cloak></div>`\n\n`x-cloak` attributes are removed from elements when Alpine initializes. This is useful for hiding pre-initialized DOM. It's typical to add the following global style for this to work:\n\n```html\n<style>\n    [x-cloak] { display: none; }\n</style>\n```",
-        "valueSet": "v"
+        "description": "**Example:** `<div x-data=\"{}\" x-cloak></div>`\n\n`x-cloak` attributes are removed from elements when Alpine initializes. This is useful for hiding pre-initialized DOM. It's typical to add the following global style for this to work:\n\n```html\n<style>\n    [x-cloak] { display: none; }\n</style>\n```"
     }
 ]
