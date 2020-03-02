@@ -64,11 +64,11 @@ var attributes =
     .Concat(
         events.Select(e => new Attribute(
             name: onDirective.Name + e.Name,
-            description: string.Join(separator, e.Description, onDirective.Description)))
+            description: string.Join(separator, e.Description, onDirective.Description))))
     .Concat(
         commonBindableAttributes.Select(a => new Attribute(
             name: bindDirective.Name + a.Name,
-            description: string.Join(separator, a.Description, bindDirective.Description)))));
+            description: string.Join(separator, a.Description, bindDirective.Description))));
 
 var customData = new CustomData { GlobalAttributes = attributes };
 
