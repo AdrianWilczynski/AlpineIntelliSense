@@ -71,6 +71,13 @@
         ],
         "description": "$nextTick is a magic property that allows you to only execute a given expression AFTER Alpine has made its reactive DOM updates. This is useful for times you want to interact with the DOM state AFTER it's reflected any data updates you've made."
     },
+    "Alpine.js $watch": {
+        "prefix": "$watch",
+        "body": [
+            "\\$watch('${1:open}', ${2:value => console.log(value)})"
+        ],
+        "description": "You can \"watch\" a component property with the $watch magic method. In the above example, when the button is clicked and open is changed, the provided callback will fire and console.log the new value."
+    },
     "Alpine.js .away": {
         "prefix": ".away",
         "body": [
@@ -113,10 +120,17 @@
         ],
         "description": "Adding the .once modifier to an event listener will ensure that the listener will only be handled once. This is useful for things you only want to do once, like fetching HTML partials and such."
     },
+    "Alpine.js .debounce": {
+        "prefix": ".debounce",
+        "body": [
+            ".debounce.${1:750}"
+        ],
+        "description": "The debounce modifier allows you to add a \"debounce\" to a value update. In other words, the event handler will NOT run until a certain amount of time has elapsed since the last event that fired. When the handler is ready to be called, the last handler call will execute."
+    },
     "Alpine.js CDN": {
         "prefix": "alpine-cdn",
         "body": [
-            "<script src=\"https://cdn.jsdelivr.net/gh/alpinejs/alpine@v${1:1.10.1}/dist/alpine.js\" defer></script>"
+            "<script src=\"https://cdn.jsdelivr.net/gh/alpinejs/alpine@v${1:2.x.x}/dist/alpine.js\" defer></script>"
         ],
         "description": "Add the following script to the end of your <head> section."
     }
