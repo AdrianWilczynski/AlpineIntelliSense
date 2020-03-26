@@ -24,10 +24,12 @@ IntelliSense for Alpine's directives.
 | $event | `$event` |
 | $dispatch | `$dispatch('${1:custom-event}', ${2:{ foo: 'bar' }})` |
 | $nextTick | `$nextTick(${1:() => { console.log($event.target.innerText) }});` |
+| $watch | `$watch('${1:open}', ${2:value => console.log(value)})` |
 | \.away | `.away` |
 | \.prevent | `.prevent` |
 | \.stop | `.stop` |
 | \.window | `.window` |
 | \.document | `.document` |
 | \.once | `.once` |
-| alpine\-cdn | `<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v${1:1.10.1}/dist/alpine.js" defer></script>` |
+| \.debounce | `.debounce.${1:750}` |
+| alpine\-cdn | `<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v${1:2.x.x}/dist/alpine.js" defer></script>` |
