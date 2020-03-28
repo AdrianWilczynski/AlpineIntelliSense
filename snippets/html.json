@@ -127,6 +127,13 @@
         ],
         "description": "The debounce modifier allows you to add a \"debounce\" to a value update. In other words, the event handler will NOT run until a certain amount of time has elapsed since the last event that fired. When the handler is ready to be called, the last handler call will execute."
     },
+    "Alpine.js .transition": {
+        "prefix": ".transition",
+        "body": [
+            ".transition"
+        ],
+        "description": "x-show.transition is a convenience API for making your x-shows more pleasant using CSS transitions."
+    },
     "Alpine.js CDN": {
         "prefix": "alpine-cdn",
         "body": [
