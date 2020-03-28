@@ -32,4 +32,5 @@ IntelliSense for Alpine's directives.
 | \.document | `.document` |
 | \.once | `.once` |
 | \.debounce | `.debounce.${1:750}` |
+| \.transition | `.transition` |
 | alpine\-cdn | `<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v${1:2.x.x}/dist/alpine.js" defer></script>` |
