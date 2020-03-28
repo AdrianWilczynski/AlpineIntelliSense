@@ -23,6 +23,14 @@
             "</template>"
         ]
     },
+    "Alpine.js x-for with index": {
+        "prefix": "x-for-index",
+        "body": [
+            "<template x-for=\"(${1:item}, ${2:index}) in ${3:items}\" :key=\"$2\">",
+            "\t$0",
+            "</template>"
+        ]
+    },
     "Alpine.js x-bind:class": {
         "prefix": "x-bind:class",
         "body": [

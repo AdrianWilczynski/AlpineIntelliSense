@@ -17,6 +17,7 @@ IntelliSense for Alpine's directives.
 | x\-if | `<template x-if="${1:true}"> $0 </template>` |
 | x\-for | `<template x-for="${1:item} in ${2:items}"> $0 </template>` |
 | x\-for\-key | `<template x-for="${1:item} in ${2:items}" :key="${3:item}"> $0 </template>` |
+| x\-for\-index | `<template x-for="(${1:item}, ${2:index}) in ${3:items}" :key="$2"> $0 </template>` |
 | x\-bind:class | `x-bind:class="{ '${1:hidden}': ${2:foo} }"` |
 | x\-bind | `x-bind:${1:attribute}="${2:expression}"` |
 | $el | `$el` |
