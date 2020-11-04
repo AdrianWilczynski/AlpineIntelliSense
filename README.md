@@ -20,6 +20,13 @@ IntelliSense for Alpine's directives.
 | x\-for\-index | `<template x-for="(${1:item}, ${2:index}) in ${3:items}" :key="$2"> $0 </template>` |
 | x\-bind:class | `x-bind:class="{ '${1:hidden}': ${2:foo} }"` |
 | x\-bind | `x-bind:${1:attribute}="${2:expression}"` |
+| x\-show | `x-show="$0"` |
+| x\-transition:enter | `x-transition:enter="$0"` |
+| x\-transition:enter-start | `x-transition:enter-start="$0"` |
+| x\-transition:enter-end | `x-transition:enter-end="$0"` |
+| x\-transition:leave | `x-transition:leave="$0"` |
+| x\-transition:leave-start | `x-transition:leave-start="$0"` |
+| x\-transition:leave-end | `x-transition:leave-end="$0"` |
 | $el | `$el` |
 | $refs | `$refs.${1:name}` |
 | $event | `$event` |
