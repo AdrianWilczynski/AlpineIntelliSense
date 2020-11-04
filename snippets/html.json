@@ -44,6 +44,48 @@
         ],
         "description": "x-bind sets the value of an attribute to the result of a JavaScript expression. The expression has access to all the keys of the component's data object, and will update every-time its data is updated."
     },
+    "Alpine.js x-show": {
+      "prefix": "x-show",
+      "body": [
+        "x-show=\"$0\""
+      ]
+    },
+    "Alpine.js x-transition:enter": {
+      "prefix": "x-transition:enter",
+      "body": [
+        "x-transition:enter=\"$0\""
+      ]
+    },
+    "Alpine.js x-transition:enter-start": {
+      "prefix": "x-transition:enter-start",
+      "body": [
+        "x-transition:enter-start=\"$0\""
+      ]
+    },
+    "Alpine.js x-transition:enter-end": {
+      "prefix": "x-transition:enter-end",
+      "body": [
+        "x-transition:enter-end=\"$0\""
+      ]
+    },
+    "Alpine.js x-transition:leave": {
+      "prefix": "x-transition:leave",
+      "body": [
+        "x-transition:leave=\"$0\""
+      ]
+    },
+    "Alpine.js x-transition:leave-start": {
+      "prefix": "x-transition:leave-start",
+      "body": [
+        "x-transition:leave-start=\"$0\""
+      ]
+    },
+    "Alpine.js x-transition:leave-end": {
+      "prefix": "x-transition:leave-end",
+      "body": [
+        "x-transition:leave-end=\"$0\""
+      ]
+    },
     "Alpine.js $el": {
         "prefix": "$el",
         "body": [
