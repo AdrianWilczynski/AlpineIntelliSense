@@ -30,6 +30,14 @@
             {
                 "language": "html",
                 "path": "./snippets/html.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/html.json"
             }
         ],
         "html": {
